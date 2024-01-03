@@ -16,8 +16,5 @@ public class STG {
     public void init(FMLInitializationEvent event) {
         // Register the event handler
         MinecraftForge.EVENT_BUS.register(new LeftClickEventHandler());
-
-        // Some example code
-        System.out.println("DIRT BLOCK >> " + Blocks.dirt.getUnlocalizedName());
     }
 }
